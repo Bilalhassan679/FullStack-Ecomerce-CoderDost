@@ -41,6 +41,44 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ## Learn More
 
+#Create App With redux
+
+**npx create-react-app ecomerce_react_app --template redux
+
+*add Tailwind
+
+npm install -D tailwindcss
+
+npx tailwindcss init	
+
+/** @type {import('tailwindcss').Config} */
+
+module.exports = {
+
+  content: [
+
+  `"./src/**/*.{js,jsx,ts,tsx}",`
+  
+  ],
+  
+  theme: {
+  
+    extend: {},
+  
+  },
+  
+  plugins: [],
+
+}
+
+
+
+### `@tailwind base;`
+
+### `@tailwind components;`
+
+### `@tailwind utilities;`
+
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
